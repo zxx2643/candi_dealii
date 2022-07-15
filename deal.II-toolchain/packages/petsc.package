@@ -28,6 +28,8 @@ CONFOPTS="
   --with-mpi=1
   --with-x=0
   --with-64-bit-indices=0
+  --download-superlu_dist=1 --download-scalapack=1 --download-mumps=1 --download-blas=1 --download-lapack=1 --download-hyper=1
+  --download-fblaslapack=1
 "
 
 if [ ${NATIVE_OPTIMIZATIONS} = ON ]; then
